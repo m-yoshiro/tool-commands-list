@@ -36,7 +36,11 @@
 ツール管理
 - bundle init
 - bundle install
+
+Gemfileを参照しローカルの指定したディレクトリにインストール
 - bundle install --path vendor/bundle
+
+bundleでインストールしたローカルモジュールを実行
 - bundle exec [module-name]
 
 ## Homebrew
@@ -54,6 +58,16 @@
 - brew doctor
 
 ## Git
+コミット履歴を閲覧
+- git log --oneline
+
+指定したコミットの更新内容を閲覧
+- git show [ID]
+
+コミットを削除
+- git reset --hard HEAD^ 直前のコミットを削除しファイルにも反映
+
+gitの管理から削除
 - git rm
 - git rm -r
 - git rm --cache
