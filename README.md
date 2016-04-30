@@ -23,9 +23,21 @@
 - rbenv install 2.x.x
 - rbenv global 2.x.x
 
+### bundler
+- bundle init
+- bundle install
+- bundle install --path vendor/bundle
+- bundle exec [module-name]
+
 ## Homebrew
 
 ### Homebrew
 - brew install [name]
 - brew tap
 - brew tap [name]
+- brew update
+- brew upgrade
+- brew unlink [name]
+- brew link [name]
+- brew list
+- brew doctor
