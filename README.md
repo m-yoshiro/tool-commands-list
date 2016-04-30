@@ -4,6 +4,7 @@
 - [node.js](#nodejs)
 - [Ruby](#ruby)
 - [Homebrew](#homebrew)
+- [Git](#git)
 
 ## node.js
 
@@ -51,3 +52,9 @@
 - brew link [name]
 - brew list
 - brew doctor
+
+## Git
+- git rm
+- git rm -r
+- git rm --cache
+- git branch -m [old name] [new name]
