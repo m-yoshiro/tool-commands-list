@@ -1,4 +1,4 @@
-# tool-commands-list
+# tool-commands-tips
 よく使うツールのよく使うコマンドをリストアップ
 
 - [node.js](#nodejs)
