@@ -9,7 +9,7 @@
 ## node.js
 
 ### npm
-ツール管理
+ツール管理  
 ex) npm init -y
 
 | Commands | Usages |
