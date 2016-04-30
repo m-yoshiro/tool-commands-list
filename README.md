@@ -10,10 +10,16 @@
 
 ### npm
 ツール管理
-- npm i -y
-- npm i -D [module-name]
-- npm i -S [module-name]
-- npm update -g npm
+ex) npm init -y
+
+| Commands | Usages |
+| -------- | -------- |
+| init -y | package.jsonファイルを作成。 |
+| install(i) | package.jsonを参照しモジュールのインストールを実行 |
+| install --save(S) [module] | 指定したモジュールをインストールし、かつpackage.jsonにdependencyとして保存する |
+| install --save-dev(D) [module] | 上とほぼ同じ動作だが、dev-dependencyとして保存される |
+| update -g npm | npm自身をアップデート |
+
 
 ### nodebrew
 バージョン管理
