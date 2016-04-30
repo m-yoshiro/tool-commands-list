@@ -1,6 +1,10 @@
 # tool-commands-list
 よく使うツールのよく使うコマンドをリストアップ
 
+- [node.js](#nodejs)
+- [Ruby](#ruby)
+- [Homebrew](#homebrew)
+
 ## node.js
 
 ### npm
