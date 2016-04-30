@@ -13,11 +13,12 @@
 
 | Commands | Usages |
 | -------- | -------- |
-| npm init -y | package.jsonファイルを作成。 |
-| npm install(i) | package.jsonを参照しモジュールのインストールを実行 |
-| npm install --save(S) [module] | 指定したモジュールをインストールし、かつpackage.jsonにdependencyとして保存する |
-| npm install --save-dev(D) [module] | 上とほぼ同じ動作だが、dev-dependencyとして保存される |
-| npm update -g npm | npm自身をアップデート |
+| npm | 基本コマンド(以下省略) |
+| init -y | package.jsonファイルを作成。 |
+| install(i) | package.jsonを参照しモジュールのインストールを実行 |
+| install --save(S) [module] | 指定したモジュールをインストールし、かつpackage.jsonにdependencyとして保存する |
+| install --save-dev(D) [module] | 上とほぼ同じ動作だが、dev-dependencyとして保存される |
+| update -g npm | npm自身をアップデート |
 
 
 ### nodebrew
