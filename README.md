@@ -29,6 +29,7 @@
 - rbenv install -l
 - rbenv install 2.x.x
 - rbenv global 2.x.x
+- rbenv rehash
 
 ### bundler
 ツール管理
