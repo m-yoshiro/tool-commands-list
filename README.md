@@ -39,35 +39,43 @@
 
 ### rbenv
 バージョン管理
-- rbenv install -l
-- rbenv install 2.x.x
-- rbenv global 2.x.x
-- rbenv rehash
+
+| Commands | Usages |
+| -------- | -------- |
+| rbenv | 基本コマンド |
+| install -l | インストール可能なバージョン一覧 |
+| install 2.x.x | 指定したバージョンをインストール |
+| global 2.x.x | 指定したバージョンをglobalで使用 |
+| rehash | 現在のバージョンでインストール済みのモジュールを使用できるようにする |
 
 ### bundler
 ツール管理
-- bundle init
-- bundle install
-
-Gemfileを参照しローカルの指定したディレクトリにインストール
-- bundle install --path vendor/bundle
-
-bundleでインストールしたローカルモジュールを実行
-- bundle exec [module-name]
+| Commands | Usages |
+| -------- | -------- |
+| bundle | 基本コマンド |
+| init | |
+| install | |
+| install --path vendor/bundle| Gemfileを参照しローカルの指定したディレクトリにインストール |
+| update | |
+| exec [module-name] | bundleでインストールしたローカルモジュールを実行 |
 
 ## Homebrew
 
 ### Homebrew
 ツール管理
-- brew install [name]
-- brew tap
-- brew tap [name]
-- brew update
-- brew upgrade
-- brew unlink [name]
-- brew link [name]
-- brew list
-- brew doctor
+
+| Commands | Usages |
+| -------- | -------- |
+| brew | 基本コマンド |
+| install [name] | |
+| tap | |
+| tap [name] | |
+| update | |
+| upgrade | |
+| unlink [name] | |
+| link [name] | |
+| list | |
+| doctor | |
 
 ## Git
 コミット履歴を閲覧
