@@ -14,7 +14,8 @@
 | Commands | Usages |
 | -------- | -------- |
 | npm | 基本コマンド(以下省略) |
-| init -y | package.jsonファイルを作成。 |
+| init | 初期化してpackage.jsonを作成。 |
+| init -y | package.jsonの書き込みを省略して初期化。 |
 | install(i) | package.jsonを参照しモジュールのインストールを実行 |
 | install --save(S) [module] | 指定したモジュールをインストールし、かつpackage.jsonにdependencyとして保存する |
 | install --save-dev(D) [module] | 上とほぼ同じ動作だが、dev-dependencyとして保存される |
@@ -23,10 +24,15 @@
 
 ### nodebrew
 バージョン管理
-- nodebrew ls-remote
-- nodebrew install-binary v0.x.x
-- nodebrew use v0.x.x
-- nodebrew migrate-package v0.xx.xx
+
+| Commands | Usages |
+| -------- | -------- |
+| nodebrew | 基本コマンド |
+| ls-remote | インストール可能なnode.jsのバージョンを一覧 |
+| install-binary v0.x.x | バージョンを指定してバイナリファイルをインストール |
+| install v0.x.x | バージョンを指定してインストール |
+| use v0.x.x | globalに使用するnode.jsのバージョンを設定 |
+| migrate-package v0.xx.xx | 指定したバージョンでインストールしたnpmモジュール全てを現在のバージョンにインストール
 
 
 ## Ruby
