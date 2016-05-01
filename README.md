@@ -55,7 +55,7 @@
 | bundle | 基本コマンド |
 | init | |
 | install | |
-| install --path vendor/bundle| Gemfileを参照しローカルの指定したディレクトリにインストール |
+| install --path vendor/bundle | Gemfileを参照しローカルの指定したディレクトリにインストール |
 | update | |
 | exec [module-name] | bundleでインストールしたローカルモジュールを実行 |
 
