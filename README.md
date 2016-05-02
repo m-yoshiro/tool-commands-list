@@ -43,6 +43,8 @@
 | Commands | Usages |
 | -------- | -------- |
 | rbenv | 基本コマンド |
+| version | 使用中のバージョンを表示 |
+| versions | インストール済みのバージョンを一覧 |
 | install -l | インストール可能なバージョン一覧 |
 | install 2.x.x | 指定したバージョンをインストール |
 | global 2.x.x | 指定したバージョンをglobalで使用 |
