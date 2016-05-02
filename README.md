@@ -48,6 +48,7 @@
 | install -l | インストール可能なバージョン一覧 |
 | install 2.x.x | 指定したバージョンをインストール |
 | global 2.x.x | 指定したバージョンをglobalで使用 |
+| local 2.x.x | 指定したバージョンをlocalで指定し、.ruby-versionを作成する |
 | rehash | 現在のバージョンでインストール済みのモジュールを使用できるようにする |
 
 ### bundler
