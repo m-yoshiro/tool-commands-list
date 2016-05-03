@@ -63,6 +63,18 @@
 | update | |
 | exec [module-name] | bundleでインストールしたローカルモジュールを実行 |
 
+## Python
+
+### pyenv
+
+| Commands | Usages |
+| -------- | -------- |
+| pyenv | 基本コマンド \| ヘルプ |
+| version | 使用中のバージョンを表示 |
+| versions | インストール済みのバージョンを一覧 |
+| install -l | インストール可能なバージョン一覧 |
+
+
 ## Homebrew
 
 ### Homebrew
