@@ -50,6 +50,7 @@
 | global 2.x.x | 指定したバージョンをglobalで使用 |
 | local 2.x.x | 指定したバージョンをlocalで指定し、.ruby-versionを作成する |
 | rehash | 現在のバージョンでインストール済みのモジュールを使用できるようにする |
+| cd ~/.rbenv/plugins/ruby-build && git pull && cd - | インストール可能なリストを最新にする |
 
 ### bundler
 ツール管理
